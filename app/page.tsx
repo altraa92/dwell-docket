@@ -12,6 +12,7 @@ type BrowserEthereumProvider = {
   removeListener?: (event: string, handler: (...args: any[]) => void) => void;
 };
 
+
 declare global {
   interface Window {
     ethereum?: BrowserEthereumProvider;
